@@ -1,6 +1,6 @@
-# Flower
+# Python
 
-Flower is a small Python project containing two Turtle graphics programs. Run
+Python is a small Python project containing two Turtle graphics programs. Run
 either script to draw a colorful design in a desktop window.
 
 ## Overview and features
