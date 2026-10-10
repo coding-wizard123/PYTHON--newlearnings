@@ -1,33 +1,43 @@
 # Python bytecode and caches
 __pycache__/
 *.py[cod]
+*$py.class
 
 # Virtual environments
 .venv/
 venv/
 env/
 
-# Build, test, and type-check artifacts
+# Build and distribution outputs
 build/
 dist/
 *.egg-info/
+
+# Test and type-check caches
 .pytest_cache/
 .mypy_cache/
 .ruff_cache/
 .coverage
 htmlcov/
 
-# Local configuration and secrets
+# Local configuration, credentials, and secrets
 .env
 .env.*
-!.env.example
+*.local
+secrets/
+credentials/
+credentials.json
+secrets.json
 *.pem
 *.key
 *.p12
-credentials.json
 
-# Editor and operating-system files
+# Logs
+*.log
+
+# Editors and operating systems
 .vscode/
 .idea/
+.vs/
 .DS_Store
 Thumbs.db
